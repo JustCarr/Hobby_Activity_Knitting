@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Shrikhand&display=swap" rel="stylesheet">   
-    <title>Knitting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Shrikhand&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">   
+    <title>Yarn</title>
 
     <!-- Hotjar Tracking Code for https://github.com/JustCarr/Hobby_Activity_Knittin -->
 <script>
@@ -26,14 +26,16 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Knit One</a>
+        <a class="navbar-brand" href="#">
+          <img src="images/yarn_logo.svg">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -43,24 +45,85 @@
                 <a class="nav-link" href="#">Blog</a>
               </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Socials</a>
-              </li>
           </ul>
 
         </div>
       </nav>    
 
-    <div class="jumbotron">
+  <div class="jumbotron">
         <div class="jumboCopy">
-        <h1 class="display-4">Knitting One – Purl One</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <h1 class="display-4">Knit One – Purl One</h1>
+        <p class="lead">Knitting – not just for Nanna's.</p>
         <hr class="my-4">
-        <p>Test branches GitHub again.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <p>Taking this much loved tradition and adding some modern flare, creating a communtiy of creative knitters.</p>
+        <a class="btn btn-primary btn-lg btn-jumbo" href="#" role="button">Learn more</a>
+        </div>
+  </div>  
+
+
+  <div class="container-fluid email-signup-container">
+    <form>
+        <div class="form-group email-text">
+        <label for="exampleInputEmail1">JOIN OUR MAILING LIST</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+        </div>
+      </div>  
+    </form>
+  </div> 
+ 
+  
+  <div class="card-deck">
+    <div class="card">
+      <img src="images/ottoman.png" class="card-img-top" alt="Colourful Ottoman">
+      <div class="card-body">
+        <h5 class="card-title">Colourful Ottoman</h5>
+        <p class="card-text">Big knits are still here to stay. Follow our easy step-by-step guide to make your own chunky knit ottoman cover.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Blog - Published 2 days ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/stools.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Textured Stools</h5>
+        <p class="card-text">Artist Claire Daley takes us inside her studio to show us her latest collection inspired by beautiful Australian wool.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Blog - Published 1 week ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/Skirt.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Autumn Vibes</h5>
+        <p class="card-text">Autumn is here and we have all the latest patterns and styles to brighten and warm your wardrobe.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Blog - Published 2 weeks ago</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid footer-container">
+    <div class="row footer">
+      <div class="col-md-auto footer-logo"><img src="images/yarn_logo_white.svg"></div>
+      <div class="col-md-auto footer-text">Shop</div>
+      <div class="col-md-auto footer-text">About</div>
+      <div class="col-md-auto footer-text">Blog</div>
+      <div class="col-md-auto footer-text">Contact</div>
+      <div class="col-md-auto footer-social">Facebook</div>
+      <div class="col-md-auto footer-social">Instagram</div>
     </div>  
+  </div>
+
+
+
+
+  
     
 </body>
 </html>
